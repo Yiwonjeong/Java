@@ -1,4 +1,4 @@
-package sub2;
+package sub1;
 
 /* 
  * 작성자: 이원정
