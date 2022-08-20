@@ -1,4 +1,4 @@
-package ch02;
+package ch03;
 
 /* 
  * 작성자: 이원정
