@@ -6,7 +6,7 @@ package sub1;
  * 
  * 배열(Array)
  * - 하나 이상의 데이터를 하나의 변수에 저장할 수 있는 자료 구조
- * - 현대 프로그래밍에서는 Array 대신 List를 더 많이 사
+ * - 현대 프로그래밍에서는 Array 대신 List를 더 많이 사용
  */
 
 public class ArrayTest {
@@ -25,14 +25,18 @@ public class ArrayTest {
 		System.out.println("arr1[0]: " +arr1[0]);
 		System.out.println("arr1[2]: " +arr1[2]);
 		System.out.println("arr1[4]: " +arr1[4]);
+		
+		System.out.println();
 
 		System.out.println("arr2[0]: " +arr2[0]);
 		System.out.println("arr2[1]: " +arr2[1]);
 		
+		System.out.println();
+		
 		System.out.println("arr3[1]: " +arr3[1]);
 		System.out.println("arr3[3]: " +arr3[3]);
 		
-		
+		System.out.println();
 		
 		//배열 길이
 		
@@ -40,6 +44,7 @@ public class ArrayTest {
 		System.out.println("arr2의 배열 길이: " +arr2.length);
 		System.out.println("arr3의 배열 길이: " +arr3.length);
 		
+		System.out.println();
 		
 		//배열 반복문
 		
@@ -58,9 +63,7 @@ public class ArrayTest {
 		for(String str: arr3) {
 			System.out.print(str+" ");
 		}
-		
-		System.out.println();
-		
+		System.out.println("\n");
 		
 		//1차원 배열 (선, lineur)
 		
@@ -73,6 +76,9 @@ public class ArrayTest {
 			
 		}
 		System.out.println("scores의 합: " +total);
+		
+		
+		System.out.println("\n");
 		
 		
 		//2차원 배열 (면)
