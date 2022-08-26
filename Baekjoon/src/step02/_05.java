@@ -2,7 +2,7 @@ package step02;
 
 /* 
  * 작성자: 이원정
- * 작성일: 2022.08.23
+ * 작성일: 2022.08.21
  * 내용: 백준 2단계 5번 문제(2884)
  */
 
@@ -16,7 +16,7 @@ public class _05 {
 		int H = sc.nextInt();
 		int M = sc.nextInt();
 		
-		if(M>45) {
+		if(M<45) {
 			H--;
 			M=60-(45-M);
 			if(H<0) {
@@ -25,7 +25,7 @@ public class _05 {
 		System.out.println(H + " " + M);
 		}
 		else {
-			System.out.println(H + " " + M);
+			System.out.println(H + " " + (M-45));
 		}
 
 }
