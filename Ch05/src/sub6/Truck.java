@@ -1,4 +1,4 @@
-package sub5;
+package sub6;
 
 public class Truck extends Car {
 	
@@ -8,7 +8,10 @@ public class Truck extends Car {
 		super(name, color, speed);
 		this.capacity = capacity;
 	}
-	
+	@Override
+	public void speedUp(int speed) {
+		this.speed += speed - 10;
+	}
 
 	public void load(int capacity) {
 		this.capacity += capacity;

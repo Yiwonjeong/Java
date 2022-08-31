@@ -59,6 +59,9 @@ public class StaticTest {
 		
 		//싱글톤 (Singleton) 객체 실습 *중요*
 		
+		
+		//메서드로 객체를 리턴
+	    //new Calc()
 		Calc c1 = Calc.getInstance();
 		Calc c2 = Calc.getInstance();
 		
