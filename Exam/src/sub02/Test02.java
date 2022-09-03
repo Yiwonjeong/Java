@@ -16,7 +16,7 @@ public class Test02 {
 			
 			if (maxNum < arr[i]) {
 				
-				maxNum = arr[i++];
+				maxNum = arr[i];
 				
 			}
 		}

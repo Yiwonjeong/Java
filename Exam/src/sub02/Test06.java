@@ -21,7 +21,7 @@ public class Test06 {
 		int input = sc.nextInt();
 		return input; 
 	}
-	public static void reslut(int val) {
+	public static void result(int val) {
 		System.out.println("덧셈 결과: " +val);
 		System.out.println("******* END *******");
 	}
@@ -41,7 +41,7 @@ public class Test06 {
 		int b = input(sc, "b");
 		
 		int output = add(a,b);
-		reslut(output);
+		result(output);
 		
 		sc.close();
 		

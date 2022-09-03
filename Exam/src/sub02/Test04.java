@@ -27,9 +27,9 @@ public class Test04 {
 			for(int j= i+1; j<5; j++) {
 			
 				if (arr[i] > arr[j]) {
-					int temp = arr[j];
-					arr[j]= arr[i];
-					arr[i]=temp;
+					int temp = arr[j]; //2를 temp에 보관
+					arr[j]= arr[i];	   //4를 두 번째로 이동
+					arr[i]=temp;	   //2를 앞으로 이동
 				}
 		}
 	}
