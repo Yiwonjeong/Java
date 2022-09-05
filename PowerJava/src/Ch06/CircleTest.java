@@ -1,5 +1,7 @@
 package Ch06;
 
+import temp.Shape;
+
 class Shape{
 	int x,y;
 }
