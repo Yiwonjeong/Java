@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * 날짜: 2022/09/26
  * 이름: 이원정
- * 내용: 자바 총정리 연습문제
+ * 내용: 자바 총정리 연습문제: factorial
  */
 public class Test10 {
 	public static void main(String[] args) {
