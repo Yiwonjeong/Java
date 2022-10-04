@@ -24,6 +24,7 @@ public class INSERT_EX {
 			stmt.close();
 			conn.close();
 			
+
 			
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
